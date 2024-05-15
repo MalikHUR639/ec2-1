@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const callApi = () => {
-    fetch('http://localhost:3001/api') 
+    fetch('http://3.109.32.27:3001/api') 
       .then(response => response.text())
       .then(data => {        
         alert(`Response from API: ${data}`);
